@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+י<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_corpus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_corpus.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+     <teiHeader>
+         <fileDesc>
+             <titleStmt>
+                 <title>title of corpus</title>
+                 <author>author</author>
+             </titleStmt>
+	        <publicationStmt>
+	           <p>Publication Information</p>
+	        </publicationStmt>
+	        <sourceDesc>
+	           <p>Information about the source</p>
+	        </sourceDesc>
+         </fileDesc>
+     </teiHeader>
+    <TEI xml:id="Noa1">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title><!-- ... --></title>
+                    <author><!-- ... --></author>
+                </titleStmt>
+                <publicationStmt>
+                    <p><!-- ... --></p>
+                </publicationStmt>
+                <sourceDesc>
+                    <p><!-- ... --></p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName>אחד העם</persName>
+                        <placeName>[אודיסא]</placeName>
+                        <date when="1904-02-21">21 פברואר 904</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName>מר י. ל. גולדברג</persName>
+                        <placeName>[ווילנא]</placeName>
+                    </correspAction>
+                </correspDesc>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div>
+                    <opener> <salute>
+                        למר י. ל. גולדברג, ווילנא.
+                    </salute>
+                        <dateline> 
+                            <placeName>  אודיסא </placeName>  ,
+                            <date>
+                                21 פברואר 904
+                            </date>
+                            .
+                        </dateline>
+                    </opener>  
+                    <p> …. להוי ידוע לך, יקירי, שמאז קבלתי עלי את המשרה בבית המסחר, שמתי לי לחוק להשאר תמיד בגבולות חובותי וזכיותי, ככל שאר העובדים, ולבלתי השתמש בשום פנים במה שהנני עוד מלפנים מכיר ומודע לראשי הבית. סבת הדבר בודאי מובנת לך: איני רוצה ליתן מקום, לא לאדוני הבית ולא לאחרים, לחשוב את משרתי כעין חסד של ידידות, והנני משתדל על כן להבדיל עניני בית המסחר לגמרי מכל צל של ידידות פרטית….
+                        
+                        מתוך האמור תבין, כי בכל היותי חפץ תמיד לעשות רצונך, איני יכול, לדאבון לבי, לעשות בקשתך הפעם. מפני שבזה הייתי מהרס כל * שיטתי* ביחס לראשי הבית, והצעדהראשון הזה היה מביאני להסתבך בסכסוכים שונים שאני בורח מהם….
+                        
+                        
+                    </p>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="Noa2">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title><!-- ... --></title>
+                    <author><!-- ... --></author>
+                </titleStmt>
+                <publicationStmt>
+                    <p><!-- ... --></p>
+                </publicationStmt>
+                <sourceDesc>
+                    <p><!-- ... --></p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName>אחד העם</persName>
+                        <placeName>[אודיסא]</placeName>
+                        <date when="1904-02-23">23 פברואר 904</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName>מר י. אייזנשטדט</persName>
+                        <placeName>[יפו]</placeName>
+                    </correspAction>
+                </correspDesc>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div>
+                    <opener> <salute>
+                        למר י. אייזנשטדט, יפו.
+                    </salute>
+                        <dateline> 
+                            <placeName>  אודיסא </placeName>  ,
+                            <date>
+                                23 פברואר 904 (ז' אדר תרס"ד)
+                            </date>
+                            .
+                        </dateline>
+                    </opener>  
+                    <p> שלשה מכתבים מאתך מונחים לפני, והראשון הוא מיום כ“ז חשון, כלומר מלפני שלשה חדשים ומחצה! מפני מה הנני ממעט לכתוב לכם? – הרבה טעמים לדבר, והעיקר הוא, שעמוס אני בעבודה מכל צד ועודני רחוק מאד מן המנוחה. מעת שחדלתי להיות עורך “השלח”, וכתיבת מכתבים חדלה להיות עבודה של חובה, הנני מקמץ בזה מאד, כדי לשמור את רגעַי המעטים בשביל עבודות רוחניות יותר נחוצות. ועם זה (כמו שכבר, כמדומה לי, כתבתי לך) גם המצב בא”י מעורר בלבי רגשות שלא הרגשתי כמהם בימים שעברו, וקשה לי לפנות עתה לא“י אפילו ע”י מכתבים….
+                        
+                        אך היום פנוי אני לביתי, מסבות שונות, ופתאום נתעורר בי החפץ לכתוב לכם. וכשבאתי לכתוב את היום והסתכלתי ב“לוח”, ראיתי שהיום ז' אדר15! אם מאמין אתה בסמיכות כזו, תוכל לדרוש ע"ז דרוש יפה…
+                        
+                        ובכן, קורא אני את מכתביך על הסדר ואענך על ראשון ראשון:
+                        
+                        ה“הסתדרות”. עתה, כמדומה לי, אין לי צורך עוד להביא ראיות לדעתי בענין זה, ה“מחאות” שבאו בכה“ע מא”י, מיושבי הערים ומיושבי הקולוניות, הן מעידות באופן מספיק, כמה גדול “כבודה” של ההסתדרות בעיני בני א“י. אמת אגיד לך, שמעולם לא הרגשתי ביחס לא”י מה שאני מרגיש עתה. עצב, התמרמרות, חמלה וכו' – כל הרגשות האלה ידעתי מכבר, אבל עתה נוסף על כל אלה רגש חדש: רגש של בוז וגועל נפש עד להקאה. שמא תאמר: “המוחים” אינם אלא יחידים? אשאלך: ואיה הרוב? מפני מה לא עוררה השפלות הזאת מחאה חיה ומקיפה את כל בני הישוב, כמו שהיה צריך להיות, אלמלא היה הישוב הזה רקוב ומקולקל עד היסוד? כנראה, גם הישרים שבבני הישוב אינם מרגישים כלל את כל עומק התהום של שפלות ועניות הרוח שנתגלו ע"י המעשה הנבזה הזה16.
+                        
+                        בשורותיו של ב. ע"ד מכירת היין יש בהן מעט “שַרלַטניסמוס”. היין הנמכר בהמבורג מכניס לא 15 פרנק, כי אם רק 13 פרנק. כך הגיד לי גלוסקין, שהיה פה באלו הימים…. וכי אפשר במצב כזה לאמור, ששאלת היין נפתרה?
+                        
+                        אתה שואל לשלומי. אם כונתך לשלום גשמי, – שלום לי. הנני משתכר לחמי בכבוד, אם כי בצמצום…. אבל ברוחניות, ידידי, אין שלום לי. שנותי עוברות, ואני מוכרח לדחות ולדחות את אשר חפצתי לעשות עוד, ומי יודע אם יעלה בידי. עוד מעט ותקפוץ עלי זקנה ואני טרוד בהבלי העולם ואיני יכול לעשות לנפשי….
+                        
+                        ברכתני במז"ט להבחרי לועד “מרבי השכלה” ברכני נא איפוא שנית להפָטרי מן החבֵרוּת הזאת. הרבה עמלתי להטות לב הועד, שיעשה לפחות איזה צעד לטובת החנוך העברי, ובראשונה היה נראה כאלו יש תקוה. אבל סוף סוף באתי לידי הכרה, שכל עמלי לשוא ושמאבד אני את זמני לבטלה, – ושלחתי להם כתב-פטורים.
+                        
+                        נסיעתי לאמריקא היא, כמובן, בדותא…. הבדותא הזאת נתפשטה בכל כה"ע של היהודים באמיריקא, וכבר קבלתי על זה שאלות מצדדים שונים.
+                        
+                    </p>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    
+     <!-- More TEI Documents -->
+</teiCorpus>
